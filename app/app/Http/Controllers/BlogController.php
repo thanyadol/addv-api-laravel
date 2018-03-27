@@ -6,7 +6,7 @@ use App\Models\Blog;
 
 use Laravel\Lumen\Routing\Controller as BaseController;
 
-//this is comment
+//this is comment at 2nd times
 class BlogController extends BaseController
 {
     /**
