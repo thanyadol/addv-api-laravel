@@ -1,0 +1,45 @@
+[27-Mar-2018 08:41:47 UTC] PHP Fatal error:  Class 'App\Models\Blog' not found in /home/ubuntu/workspace/app/app/Http/Controllers/BlogController.php on line 23
+[27-Mar-2018 08:41:47 UTC] PHP Stack trace:
+[27-Mar-2018 08:41:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/public/index.php:0
+[27-Mar-2018 08:41:47 UTC] PHP   2. Laravel\Lumen\Application->run() /home/ubuntu/workspace/app/public/index.php:28
+[27-Mar-2018 08:41:47 UTC] PHP   3. Laravel\Lumen\Application->dispatch() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:340
+[27-Mar-2018 08:41:47 UTC] PHP   4. Laravel\Lumen\Application->sendThroughPipeline() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:399
+[27-Mar-2018 08:41:47 UTC] PHP   5. Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:643
+[27-Mar-2018 08:41:47 UTC] PHP   6. Laravel\Lumen\Application->handleFoundRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:393
+[27-Mar-2018 08:41:47 UTC] PHP   7. Laravel\Lumen\Application->callActionOnArrayBasedRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:496
+[27-Mar-2018 08:41:47 UTC] PHP   8. Laravel\Lumen\Application->callControllerAction() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:511
+[27-Mar-2018 08:41:47 UTC] PHP   9. Laravel\Lumen\Application->callLumenController() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:543
+[27-Mar-2018 08:41:47 UTC] PHP  10. Laravel\Lumen\Application->callControllerCallable() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:570
+[27-Mar-2018 08:41:47 UTC] PHP  11. Illuminate\Container\Container->call() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:603
+[27-Mar-2018 08:41:47 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507}() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507
+[27-Mar-2018 08:41:47 UTC] PHP  13. App\Http\Controllers\BlogController->_list() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507
+[27-Mar-2018 08:47:51 UTC] PHP Fatal error:  Class 'App\Models\Blog' not found in /home/ubuntu/workspace/app/app/Http/Controllers/BlogController.php on line 23
+[27-Mar-2018 08:47:51 UTC] PHP Stack trace:
+[27-Mar-2018 08:47:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/public/index.php:0
+[27-Mar-2018 08:47:51 UTC] PHP   2. Laravel\Lumen\Application->run() /home/ubuntu/workspace/app/public/index.php:28
+[27-Mar-2018 08:47:51 UTC] PHP   3. Laravel\Lumen\Application->dispatch() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:340
+[27-Mar-2018 08:47:51 UTC] PHP   4. Laravel\Lumen\Application->sendThroughPipeline() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:399
+[27-Mar-2018 08:47:51 UTC] PHP   5. Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:643
+[27-Mar-2018 08:47:51 UTC] PHP   6. Laravel\Lumen\Application->handleFoundRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:393
+[27-Mar-2018 08:47:51 UTC] PHP   7. Laravel\Lumen\Application->callActionOnArrayBasedRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:496
+[27-Mar-2018 08:47:51 UTC] PHP   8. Laravel\Lumen\Application->callControllerAction() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:511
+[27-Mar-2018 08:47:51 UTC] PHP   9. Laravel\Lumen\Application->callLumenController() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:543
+[27-Mar-2018 08:47:51 UTC] PHP  10. Laravel\Lumen\Application->callControllerCallable() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:570
+[27-Mar-2018 08:47:51 UTC] PHP  11. Illuminate\Container\Container->call() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:603
+[27-Mar-2018 08:47:51 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507}() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507
+[27-Mar-2018 08:47:51 UTC] PHP  13. App\Http\Controllers\BlogController->_list() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507
+[27-Mar-2018 08:48:44 UTC] PHP Fatal error:  Class 'App\Models\Blog' not found in /home/ubuntu/workspace/app/app/Http/Controllers/BlogController.php on line 23
+[27-Mar-2018 08:48:44 UTC] PHP Stack trace:
+[27-Mar-2018 08:48:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/public/index.php:0
+[27-Mar-2018 08:48:44 UTC] PHP   2. Laravel\Lumen\Application->run() /home/ubuntu/workspace/app/public/index.php:28
+[27-Mar-2018 08:48:44 UTC] PHP   3. Laravel\Lumen\Application->dispatch() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:340
+[27-Mar-2018 08:48:44 UTC] PHP   4. Laravel\Lumen\Application->sendThroughPipeline() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:399
+[27-Mar-2018 08:48:44 UTC] PHP   5. Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:643
+[27-Mar-2018 08:48:44 UTC] PHP   6. Laravel\Lumen\Application->handleFoundRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:393
+[27-Mar-2018 08:48:44 UTC] PHP   7. Laravel\Lumen\Application->callActionOnArrayBasedRoute() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:496
+[27-Mar-2018 08:48:44 UTC] PHP   8. Laravel\Lumen\Application->callControllerAction() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:511
+[27-Mar-2018 08:48:44 UTC] PHP   9. Laravel\Lumen\Application->callLumenController() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:543
+[27-Mar-2018 08:48:44 UTC] PHP  10. Laravel\Lumen\Application->callControllerCallable() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:570
+[27-Mar-2018 08:48:44 UTC] PHP  11. Illuminate\Container\Container->call() /home/ubuntu/workspace/app/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php:603
+[27-Mar-2018 08:48:44 UTC] PHP  12. call_user_func_array:{/home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507}() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507
+[27-Mar-2018 08:48:44 UTC] PHP  13. App\Http\Controllers\BlogController->_list() /home/ubuntu/workspace/app/vendor/illuminate/container/Container.php:507

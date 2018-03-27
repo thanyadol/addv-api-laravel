@@ -1,0 +1,79 @@
+{
+	"type": "pane",
+	"name": "pane0",
+	"nodes": [
+		{
+			"type": "tab",
+			"name": "tab25",
+			"path": "/app/app/Http/routes.php",
+			"className": [
+				"tab25"
+			],
+			"document": {
+				"changed": false,
+				"meta": {
+					"timestamp": 1522139855947
+				},
+				"filter": true,
+				"title": "routes.php",
+				"tooltip": "/app/app/Http/routes.php",
+				"ace": {}
+			},
+			"editorType": "ace",
+			"active": false
+		},
+		{
+			"type": "tab",
+			"name": "tab30",
+			"path": "/app/app/Http/Controllers/BlogController.php",
+			"className": [
+				"tab30",
+				"focus"
+			],
+			"document": {
+				"changed": false,
+				"meta": {
+					"timestamp": 1522140572187
+				},
+				"filter": true,
+				"title": "BlogController.php",
+				"tooltip": "/app/app/Http/Controllers/BlogController.php",
+				"ace": {}
+			},
+			"editorType": "ace",
+			"active": true
+		},
+		{
+			"type": "tab",
+			"name": "tab32",
+			"path": "/app/app/Models/Blog.php",
+			"className": [
+				"tab32"
+			],
+			"document": {
+				"changed": false,
+				"meta": {
+					"timestamp": 1522140532905
+				},
+				"filter": true,
+				"title": "Blog.php",
+				"tooltip": "/app/app/Models/Blog.php",
+				"ace": {}
+			},
+			"editorType": "ace",
+			"active": false
+		}
+	],
+	"skin": "editor_tab",
+	"skinset": "default",
+	"meta": {
+		"accessList": [
+			"tab30",
+			"tab32",
+			"tab25",
+			"tab29",
+			"tab26"
+		]
+	},
+	"focus": "/app/app/Http/Controllers/BlogController.php"
+}
