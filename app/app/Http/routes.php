@@ -25,4 +25,4 @@ $app->get('/key', function () {
 
 
 //restFul api
-$app->get('/blog/list', 'BlogController@_list');
+$app->get('/api/blog/list', 'BlogController@_list');
